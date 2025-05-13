@@ -13,3 +13,9 @@ mahasiswa(string);
 mahasiswa(int iNim, string iNama);
 void cetak();
 };
+
+mahasiswa ::mahasiswa(){}
+
+mahasiswa ::mahasiswa(int iNim){
+    nama = iNim; // definisi hanya NIM
+}
